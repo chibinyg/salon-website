@@ -28,3 +28,13 @@ dist-ssr
 *.tfstate
 *.tfstate.*
 crash.log
+*.tfvars
+.terraform.tfstate.lock.info
+.terraform.lock.hcl
+
+# Lambda build artifact
+lambda/lambda.zip
+
+# Env files
+.env
+.env.*
